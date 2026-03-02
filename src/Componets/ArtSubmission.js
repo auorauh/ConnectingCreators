@@ -6,7 +6,7 @@ import { FaFileUpload } from "react-icons/fa";
 const ArtSubmission = ({ children, onDismiss, file, className = '' }) => {
   // simple patterns used for client-side validation
   const urlPattern = /^(https?:\/\/[\S]+)$/i; // basic http(s) URL
-  const artistPattern = /^[\w\s'\-]{1,100}$/;  // letters, spaces, hyphen, apostrophe
+  const artistPattern = /^[\w\s'-]{1,100}$/;  // letters, spaces, hyphen, apostrophe
 
   const [formData, setFormData] = useState({
     artist: '',
@@ -61,7 +61,7 @@ const ArtSubmission = ({ children, onDismiss, file, className = '' }) => {
     }
 
     // 1. Paste your Webhook URL here
-    const webhookURL = "https://discord.com/api/webhooks/1475706832436727828/hwGK1kdMWBfBQn3ADvL03Fk_f1b-g3MMcYfCsZpmI36dqhu8jvoBWgd8s44jOUcOYWNN";
+    const webhookURL = "https://discord.com/api/webhooks/1478174329320767539/c8xBdUQrF1qJRgllHTF74pLNzC00_9AlZhiR_GtTJE2-YGSQYlHgb8I3FM4Ut3e9wMjO";
     const data = new FormData();
 const messageData = {
   content: "🎨 **New Art Submission!**",

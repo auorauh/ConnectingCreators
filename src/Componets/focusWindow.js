@@ -4,16 +4,16 @@ import ArtSubmission from './ArtSubmission';
 
 
 const FocusWindow = ({ children, onDismiss,file, className = '' }) => {
-  const handleKeyDown = (e) => {
-    if (e.key === 'Escape' && onDismiss) {
-      onDismiss();
-    }
-  };
-
   React.useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape' && onDismiss) {
+        onDismiss();
+      }
+    };
+
     document.addEventListener('keydown', handleKeyDown);
     return () => document.removeEventListener('keydown', handleKeyDown);
-  }, []);
+  }, [onDismiss]);
 
   return (
     <div

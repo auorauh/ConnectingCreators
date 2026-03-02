@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import ConnectingCreators from './Componets/ConnectingCreators.js';
 

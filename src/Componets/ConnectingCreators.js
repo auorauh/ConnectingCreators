@@ -3,11 +3,10 @@ import "./ConnectingCreators.css";
 import ccLanding from '../Assets/File_006.png';
 import FocusWindow from './focusWindow.js';
 import groupPhoto from '../Assets/CC/IMG_9102.jpg';
-import janImg from '../Assets/CC/cotm1.JPG';
 import bgBrush from '../Assets/CC/bgBrush2.png';
-import bgBrush1 from '../Assets/CC/bgBrush1.png';
+// import bgBrush1 from '../Assets/CC/bgBrush1.png';
 import bgBrush3 from '../Assets/CC/bgBrush3.png';
-import bgBrush4 from '../Assets/CC/bgBrush4.png';
+// import bgBrush4 from '../Assets/CC/bgBrush4.png';
 import bgbrush5 from '../Assets/CC/bgBrush5.png';
 import { FaInstagram } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
@@ -115,7 +114,7 @@ const ConnectingCreators = ({
             </div>
             <div className="InfoBtn"><a href={lumaLink} target="_blank" rel="noopener noreferrer">Our Next Meetup</a></div>
           </div>
-          <img src={groupPhoto} className="pageImg" alt="Meetup Photo of a group circle" />
+          <img src={groupPhoto} className="pageImg" alt="Meetup talking group circle" />
           </div>
           <div className="DiscordInfo">
             Join the conversation and community on <div className="InfoBtn"><a className="DiscordLink" href="https://discord.gg/TjQ4skPq" target="_blank" rel="noopener noreferrer"><FaDiscord/>&nbsp;Discord</a></div>
