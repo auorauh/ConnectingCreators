@@ -93,6 +93,7 @@ if(file || childFile) {
   
 
     try {
+      console.log("Checking Webhook:", process.env.REACT_APP_ART_SUBMISSION_WEBHOOK);
       await fetch(webhookURL, {
         method: 'POST',
         body: data,
