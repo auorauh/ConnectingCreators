@@ -61,7 +61,7 @@ const ArtSubmission = ({ children, onDismiss, file, className = '' }) => {
     }
 
     // 1. Paste your Webhook URL here
-    const webhookURL = "https://discord.com/api/webhooks/1478174329320767539/c8xBdUQrF1qJRgllHTF74pLNzC00_9AlZhiR_GtTJE2-YGSQYlHgb8I3FM4Ut3e9wMjO";
+    const webhookURL = process.env.REACT_APP_ART_SUBMISSION_WEBHOOK;
     const data = new FormData();
 const messageData = {
   content: "🎨 **New Art Submission!**",
