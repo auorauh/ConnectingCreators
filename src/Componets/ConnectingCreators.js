@@ -116,7 +116,7 @@ const ConnectingCreators = ({
               What connects us isn’t what we do, it’s how we do it.
             </div>
             <div className={"ContentTextSection"}>
-              Connecting Creators is a growth focused collective of creators. No matter your background or what your medium is, we grow through courage, honesty, service, connection, and hard work. We are a bridge between the filmmakers, musicians, designers, and creators alike. It doesn’t matter what stage in your journey you’re in, as long as you want to be here and are willing to put in the work. The question is, how bad do you want it?
+              Connecting Creators is a growth focused movement. No matter your background or what your medium is, we grow through courage, authenticity, vulnerability, service, connection, and hard work. We are a bridge between the filmmakers, musicians, designers, and creators alike. It doesn’t matter what stage in your journey you’re in, as long as you want to be here and are willing to put in the work. The question is, how bad do you want it?
             </div>
             <div className="InfoBtn"><a href={lumaLink} target="_blank" rel="noopener noreferrer">Our Next Meetup</a></div>
           </div>
