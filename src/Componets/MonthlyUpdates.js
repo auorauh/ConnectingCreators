@@ -3,7 +3,7 @@ import febImg from '../Assets/CC/cotm2.jpg';
 
 export const Links =  {
     title: "Monthly Updates",
-    lumaLink: "https://luma.com/11wzm8a5",
+    lumaLink: "https://luma.com/wrinagfw",
     youtubeLink: <iframe className="ytVideo" src="https://www.youtube.com/embed/xM0psdAcimY?si=6-bkiuXN7czi1_gq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>,
     discordInvite: "https://discord.gg/gRFS6jBCCk"
 

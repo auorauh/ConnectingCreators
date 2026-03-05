@@ -8,6 +8,7 @@ import bgBrush from '../Assets/CC/bgBrush2.png';
 import bgBrush3 from '../Assets/CC/bgBrush3.png';
 // import bgBrush4 from '../Assets/CC/bgBrush4.png';
 import bgbrush5 from '../Assets/CC/bgBrush5.png';
+import cc9poster from '../Assets/Posters/cc9poster.jpg';
 import { FaInstagram } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
@@ -100,8 +101,12 @@ const ConnectingCreators = ({
           <path d="M0,100 C480,0 960,0 1440,100 L1440,0 L0,0 Z" fill="#000" />
         </svg>
         <div className="CCHeader">
-          RSVP for our next event <div className="ReadMoreBtn"><a href={lumaLink} target="_blank" rel="noopener noreferrer">Learn More</a></div>
+          <img className="Poster" src={cc9poster} alt="CC9 Poster" />
+          <div>
+          RSVP for our next event
+          <div className="ReadMoreBtn"><a href={lumaLink} target="_blank" rel="noopener noreferrer">Learn More</a></div>
           {/* What unites us as creators isn’t our craft, it’s our courage, curiosity, and care in how we create. */}
+          </div>
         </div>
       </div>
       <div className="MainSection">
