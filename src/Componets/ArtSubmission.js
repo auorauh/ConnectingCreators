@@ -88,16 +88,20 @@ if(file || childFile) {
     uploadableFile = childFile
   }
   data.append('payload_json', JSON.stringify(messageData));
+  if (uploadableFile) {
   data.append('file', uploadableFile);
+  }
   }
   
 
     try {
-      console.log("Checking Webhook:", process.env.REACT_APP_ART_SUBMISSION_WEBHOOK);
-      await fetch(webhookURL, {
+      const response = await fetch(webhookURL, {
         method: 'POST',
         body: data,
       });
+      if (!response.ok) {
+        throw new Error(`Unable to submit: Please try again later or contact support.`);
+      }
       alert("Art submitted successfully!");
       onDismiss()
       setFormData({ artist: '', title: '', artUrl: '', description: '' });

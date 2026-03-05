@@ -19,6 +19,7 @@ import {COTM} from './MonthlyUpdates.js';
 //Monthly Updates section
 const lumaLink = Links.lumaLink;
 const youtubeLink = Links.youtubeLink;
+const discordInvite = Links.discordInvite;
 
 const ConnectingCreators = ({ 
   text = "Connecting • ", 
@@ -117,7 +118,7 @@ const ConnectingCreators = ({
           <img src={groupPhoto} className="pageImg" alt="Meetup talking group circle" />
           </div>
           <div className="DiscordInfo">
-            Join the conversation and community on <div className="InfoBtn"><a className="DiscordLink" href="https://discord.gg/TjQ4skPq" target="_blank" rel="noopener noreferrer"><FaDiscord/>&nbsp;Discord</a></div>
+            Join the conversation and community on <div className="InfoBtn"><a className="DiscordLink" href={discordInvite} target="_blank" rel="noopener noreferrer"><FaDiscord/>&nbsp;Discord</a></div>
           </div>
           <div className="CreatorOfTheMonthCard">
             <div className="CreatorOfTheMonthImageContainer">

@@ -217,6 +217,10 @@ a {
 }
 .brushContainer {
   position: relative;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .CreatorOfTheMonthInfo {
   border-radius: 10px;
@@ -360,7 +364,7 @@ a {
   width: 80%;
   align-items: center;
   justify-content: center;
-  gap: 8rem;
+  gap: 2rem;
   padding: 2rem;
 }
 .ytVideo {
@@ -453,10 +457,11 @@ a {
   
 }
 .FormTitle {
-  font-size: 6vw;
+  font-size: 2vw;
+  font-family: 'BebasNeue', sans-serif;
+  letter-spacing: 1px;
   padding: 1rem;
   color: white;
-  
   z-index: 2;
   position: relative;
 }
@@ -467,14 +472,13 @@ a {
   display: flex;
   flex-direction: column;
   background-color: #99999975;
-  width: 550px;
-  height: 300px;
+  width: 450px;
+  height: 200px;
   border-radius: 10px;
-  padding: 1rem
+  padding: 1.5rem
 }
 .InfoTitle {
   font-size: 1.5vw;
-  margin-top: 2rem;
   text-decoration: underline black;
 }
 .InfoSection {
@@ -621,7 +625,13 @@ footer {
     font-size: 1.75rem;
   }
     .Socials {
-    font-size: 1rem;
+    font-size: 1.35rem;
+  }
+  .uploadButton {
+    font-size: 1.5vw;
+  }
+  .FormTitle {
+    font-size: 6vw;
   }
 }
 
