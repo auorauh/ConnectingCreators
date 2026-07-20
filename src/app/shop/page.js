@@ -2,11 +2,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Link from "next/link";
 import "./Shop.css";
-// import merchImage from '../Assets/merch1.jpg';
-// import merchImage2 from '../Assets/Shop/PinkElephants/JNS01200_Afterlight.jpg';
-// import merchImage3 from '../Assets/Shop/PinkElephants/JNS01262_Afterlight.jpg';
-// import merchImage4 from '../Assets/Shop/PinkElephants/JNS01263_Afterlight.jpg';
-// import merchImage5 from '../Assets/Shop/PinkElephants/shirtmockup5.png';
 
 function Shop() {
     const [file, setFile] = useState(false);
