@@ -20,11 +20,18 @@ export default function Cart() {
   const [selectedSize, setSelectedSize] = useState("S");
 
 
-const sizes = [
+const sizesTest = [
   { label: "S", priceId: "price_1TsnPkE7Y7K7bmyQHsQS8ghM" },
   { label: "M", priceId: "price_1TsnwrE7Y7K7bmyQYQD7BdMM" },
   { label: "L", priceId: "price_1TsnyLE7Y7K7bmyQRCtJCKK3" },
   { label: "XL", priceId: "price_1TsnyiE7Y7K7bmyQckCgCDGA" },
+];
+
+const sizes = [
+  { label: "S", priceId: "price_1Tv5dYCcDoUBbdxYb1e6A3mB" },
+  { label: "M", priceId: "price_1Tv5eBCcDoUBbdxY0lXeb9kL" },
+  { label: "L", priceId: "price_1Tv5epCcDoUBbdxYZlKg0CAJ" },
+  { label: "XL", priceId: "price_1Tv5fFCcDoUBbdxYVLugxndV" }
 ];
 
   const subtotal = useMemo(() => {

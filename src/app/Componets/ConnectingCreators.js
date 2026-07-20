@@ -27,7 +27,7 @@ const ConnectingCreators = ({
   const textRef = useRef(null);
   const [duplicatedText, setDuplicatedText] = useState("");
   const [showFocusWindow, setShowFocusWindow] = useState(false);
-  const [selectedMonth, setSelectedMonth] = useState(4);
+  const [selectedMonth, setSelectedMonth] = useState(5);
   const [file, setFile] = useState(null);
 
   useEffect(() => {
@@ -148,7 +148,7 @@ const ConnectingCreators = ({
       <option value="2">March</option>
       <option value="3">April</option>
       <option value="4">May</option>
-      <option disabled>June</option>
+      <option value="5">June</option>
       <option disabled>July</option>
       <option disabled>August</option>
       <option disabled>September</option>
