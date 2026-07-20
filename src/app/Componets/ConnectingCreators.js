@@ -191,8 +191,8 @@ const ConnectingCreators = ({
               Every purchase helps support future meetups, events, and
               community projects.
             </div>
-            <div className="DiscordInfo">
-               Browse limited edition merchandise.<div className="InfoBtn"><Link href="/shop">Visit the Shop</Link></div>
+            <div className="Shop">
+               Browse limited edition merchandise.<div className="ShopLink"><Link href="/shop">Visit the Shop</Link></div>
             </div>
           </div>
         </div>
