@@ -97,7 +97,7 @@ const ConnectingCreators = ({
           <path d="M0,100 C480,0 960,0 1440,100 L1440,0 L0,0 Z" fill="#000" />
         </svg>
         <div className="CCHeader">
-          <img className="Poster" src={'/Assets/Posters/cc13poster.png'} alt="CC13 Poster" />
+          <img className="Poster" src={'/Assets/Posters/cc14poster.jpg'} alt="CC14 Poster" />
           <div>
           RSVP for our next event
           <div className="ReadMoreBtn"><a href={lumaLink} target="_blank" rel="noopener noreferrer">Learn More</a></div>

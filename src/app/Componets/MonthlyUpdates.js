@@ -7,7 +7,7 @@
 
 export const Links =  {
     title: "Monthly Updates",
-    lumaLink: "https://luma.com/wsy528t9",
+    lumaLink: "https://luma.com/xakhks6g",
     youtubeLink: <iframe className="ytVideo" src="https://www.youtube.com/embed/xM0psdAcimY?si=6-bkiuXN7czi1_gq" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>,
     discordInvite: "https://discord.gg/gRFS6jBCCk"
 
